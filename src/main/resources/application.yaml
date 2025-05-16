@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: recipe-app-backend
+# custom properties
+# Ollama settings
+ollama:
+  base-url: http://localhost:11434
+# Qdrant settings
+qdrant:
+  host: localhost
+  #qdrant.port=6333
+  grpc-port: 6334
+  collection.name: recipes
