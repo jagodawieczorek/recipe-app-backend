@@ -5,6 +5,7 @@ spring:
 # Ollama settings
 ollama:
   base-url: http://localhost:11434
+  model-name: gemma3:4b
 # Qdrant settings
 qdrant:
   host: localhost
