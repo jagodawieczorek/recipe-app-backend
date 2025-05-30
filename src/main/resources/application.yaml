@@ -12,3 +12,6 @@ qdrant:
   #qdrant.port=6333
   grpc-port: 6334
   collection.name: recipes
+embedding:
+  model:
+    name: nomic-embed-text
